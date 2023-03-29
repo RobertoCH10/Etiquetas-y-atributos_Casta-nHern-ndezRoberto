@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Funcionamiento de las etiquetas de imagen y audio </title>
+        <meta charset="UTF-8">
+      </head>  
+        <body>
+            <h1>Etiqueta de imagen</h1>
+            <p>La etiqueta de imagen permite insertar una imagen dentro de un documento html, la <br> 
+              etiqueta se escribe como "< img >". Esta etiqueta crea un espacio de retención en el <br>
+              que la imagen referenciada aparecerá más tarde. Dado que se considera un elemento <br>
+              vacío, no hay etiqueta de cierre.
+            </p>
+            
+            <p>El "Src" se usa para especificar la ruta del archivo de imagen. Cuando se carga una <br>
+              página web, el navegador la recupera de un servidor web y la inserta en la página. <br>
+              Si este atributo no es correcto, el navegador no podrá encontrar la imagen ni <br>
+              cargarla correctamente.
+            </p>
+
+            <p>El atributo "Alt" es responsable del texto alternativo de la foto. Debe describir <br>
+              con precisión el archivo de imagen porque es lo que se va a mostrar en caso de que <br>
+              no se cargue la imagen.
+            </p>
+
+            <p>Existen atributos para modificar el tamaño de la imagen como "width" y "height".
+            </p>
+
+            <img src="SinImagen.jpg" alt="Texto de ejemplo si no carga la imagen" width="200">
+
+            <br>
+            <br>
+            <br>
+
+            <img src="ejemplo.jpeg" alt="Texto de ejemplo si no carga la imagen" width="200">
+
+            <h1>Etiqueta de audio</h1>
+
+            <p>Al igual que la etiqueta de imagen, la etiqueta de audio escrita como "< audio >" <br>
+              tampoco tiene un cierre.
+            </p>
+
+            <p>También contiene un atributo para indicar de donde viene, en este caso el "Src"
+
+            </p>
+
+            <p>La etiqueta de audio contiene varios atributos para manipular el archivo cargado. <br>
+              Como por ejemplo el atributo "mediagroup" sirve para establecer el nombre del grupo  <br>
+              de contenidos multimedia, el "autoplay" como su nombre indica hace que se reproduzca <br>
+              el audio de manera automática "loop" sirve para que se reproduzca el archivo en bucle <br>
+              al terminar, "muted" hace que el audio aparezca silanciado por defecto y "controls" <br>
+              muestra los controles básicos para el manejo el archivo de audio.
+        
+            </p>
+
+
+            <p>Audio con "loop", "controls" y "preload"</p>
+            <audio src="a.mp3" preload="auto" loop="auto" controls></audio>
+            <br>
+            <p>Audio con "muted" por defecto, "controls" y "preload"</p>
+            <audio src="a.mp3" preload="auto" muted="auto" controls></audio>
+            
+
+
+
+
+
+        </body>
+    
+</html>
